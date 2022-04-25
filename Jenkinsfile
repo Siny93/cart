@@ -16,7 +16,7 @@ pipeline {
 
     stage('check the code quality') {
       steps {
-        sh 'check the code quality'
+        sh 'echo check the code quality'
       }
     }
 
