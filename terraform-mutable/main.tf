@@ -7,4 +7,5 @@ module "app-module" {
   APP_VERSION = var.APP_VERSION
   APP_PORT = 8080
   LB_RULE_PRIORITY = 100
+  LB_PRIVATE = true
 }
